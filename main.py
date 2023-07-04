@@ -1,6 +1,4 @@
-import random
-import sys
-from termcolor import colored
+
 
 def print_menu():
   print('WELCOME TO WORDLE!!!\n')
