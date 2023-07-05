@@ -5,6 +5,18 @@ import nltk
 #nltk.download('words')
 from nltk.corpus import words
 
+def print_menu():
+  print('WELCOME TO WORDLE!!!\n')
+  print('\n Type a 5-letter word and hit "Enter"\n')
+
+def read_random_word():
+  with open('words.txt') as f:
+    words = f.read().splitlines()
+    return random.choice(words)
+
+nltk.data.path.append('/work/words')
+word_list = words.words()
+words_five_let = [word for word in word_list if len(word) == 5]
 
 
 
