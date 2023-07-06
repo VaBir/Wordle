@@ -21,11 +21,7 @@ words_five_let = [word for word in word_list if len(word) == 5]
 
 
 
-print_menu()
 
-play_again = ''
-while play_again != 'q':
-  word = read_random_word()
 
   for attempt in range(1, 7):
     guess = input().lower()
