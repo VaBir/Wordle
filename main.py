@@ -45,10 +45,3 @@ while play_again != 'q':
 
 
 
-
-    
-    if guess == word:
-        print(colored(f'Congratulations!! You found the word in {attempt} !!!!!!', 'red'))
-        break
-  play_again = input('Want to play again? Type q to exit.')
-  
